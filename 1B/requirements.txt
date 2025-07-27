@@ -1,0 +1,6 @@
+pymupdf
+torch
+transformers
+numpy
+pandas
+scikit-learn==1.6.1

@@ -1,0 +1,79 @@
+
+[
+     {"text": "What is the purpose of this experiment?", "label": "question"},
+  {"text": "Introduction to Quantum Computing", "label": "section_heading"},
+  {"text": "Step 1: Install dependencies", "label": "method"},
+  {"text": "The experiment was conducted on 12/05/2022", "label": "contains_date"},
+  {"text": "Quantum computing leverages superposition...", "label": "paragraph"},
+  {
+    "text": "In recent years, graph neural networks (GNNs) have emerged as a powerful tool in molecular representation learning.",
+    "label": "methodology"
+  },
+  {
+    "text": "We compare benchmark results across Tox21, QM9, and MoleculeNet datasets for performance evaluation.",
+    "label": "benchmark"
+  },
+  {
+    "text": "The ChEMBL dataset provides a large-scale bioactivity dataset critical for drug discovery.",
+    "label": "dataset"
+  },
+  {
+    "text": "This paper explores message-passing GNNs as a method for capturing molecular structure.",
+    "label": "methodology"
+  },
+  {
+    "text": "Amazon's 2023 report shows R&D spending increased by 22% compared to 2022.",
+    "label": "r_and_d"
+  },
+  {
+    "text": "Apple maintains its market lead through aggressive pricing and vertical integration.",
+    "label": "market_strategy"
+  },
+  {
+    "text": "Google's cloud revenue rose from $19.2B in 2022 to $26.4B in 2023, reflecting strong enterprise demand.",
+    "label": "revenue"
+  },
+  {
+    "text": "The annual report highlights capital expenditures focused on AI and data infrastructure.",
+    "label": "r_and_d"
+  },
+  {
+    "text": "The Arrhenius equation explains the temperature dependence of reaction rates.",
+    "label": "key_concept"
+  },
+  {
+    "text": "This chapter explains the SN1 and SN2 mechanisms with energy diagrams.",
+    "label": "mechanism"
+  },
+  {
+    "text": "Kinetic isotope effects are used to distinguish between possible reaction pathways.",
+    "label": "key_concept"
+  },
+  {
+    "text": "The student must understand the rate law derivation for unimolecular reactions.",
+    "label": "exam_preparation"
+  },
+  {
+    "text": "We demonstrate that integrating attention layers improves GNN performance on molecular property prediction.",
+    "label": "methodology"
+  },
+  {
+    "text": "Pfizer uses GNNs to model protein-ligand interactions across the PDBbind dataset.",
+    "label": "dataset"
+  },
+  {
+    "text": "Meta’s 2024 strategy prioritizes metaverse investment over traditional ad models.",
+    "label": "market_strategy"
+  },
+  {
+    "text": "Hydrolysis reactions involve nucleophilic attack on carbonyl groups under acidic or basic conditions.",
+    "label": "mechanism"
+  },
+  {"text": "The Tox21 corpus helps in predicting chemical toxicity.", "label": "dataset"},
+  {"text": "The student must grasp activation energy concepts before the exam.", "label": "exam_preparation"},
+  {"text": "The SN1 mechanism involves carbocation intermediates.", "label": "mechanism"},
+  {"text": "Meta has restructured its strategy to boost VR market dominance.", "label": "market_strategy"},
+  {"text": "Apple's revenue increased by 12% in the second quarter.", "label": "revenue"},
+  {"text": "Amazon's funding in AI R&D rose 18% over the past year.", "label": "r_and_d"},
+  {"text": "Graph neural networks are efficient for molecular graph learning.", "label": "methodology"}
+]
