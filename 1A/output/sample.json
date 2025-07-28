@@ -1,0 +1,18 @@
+{
+  "title": "TEST H1 Heading",
+  "outline": [
+    {
+      "level": "H1",
+      "text": "TEST H1 Heading",
+      "page": 1,
+      "children": [
+        {
+          "level": "H2",
+          "text": "Test H2 Subheading",
+          "page": 1,
+          "children": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,27 +1,26 @@
-# Use official Python base image
-FROM python:3.10-slim
+# Use AMD64 Python slim image
+FROM --platform=linux/amd64 python:3.10-slim
 
-# Set environment variables
-ENV PYTHONDONTWRITEBYTECODE=1
-ENV PYTHONUNBUFFERED=1
+# Prevent Python from writing .pyc files and buffer stdout/stderr
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1
 
-# Set working directory
+# Set working dir
 WORKDIR /app
 
-# Copy your script and any related files
-COPY . /app
+# Install system deps for PyMuPDF
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends \
+         build-essential libmupdf-dev \
+    && rm -rf /var/lib/apt/lists/*
 
-# Install system dependencies for fitz (PyMuPDF)
-RUN apt-get update && \
-    apt-get install -y libglib2.0-0 libgl1-mesa-glx && \
-    rm -rf /var/lib/apt/lists/*
+# Copy and install Python dependencies
+COPY requirement.txt .
+RUN pip install --no-cache-dir -r requirement.txt
 
-# Install Python dependencies
-RUN pip install --no-cache-dir \
-    pymupdf \
-    onnxruntime \
-    torch \
-    joblib
+# Copy your parsing code into the container
+COPY main.py .
 
-# Run script by default
-ENTRYPOINT ["python", "main.py"]
+# By default, process everything under /app/input and emit JSONs to /app/output
+# Assumes your script’s main() uses argparse as in your code
+ENTRYPOINT ["python", "main.py", "/app/input", "-o", "/app/output"]

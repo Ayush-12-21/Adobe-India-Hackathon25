@@ -1,0 +1,5 @@
+PyMuPDF>=1.22.0
+onnxruntime>=1.14.1
+torch>=2.0.0
+joblib>=1.2.0
+scikit-learn>=1.2.0

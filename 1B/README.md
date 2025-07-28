@@ -88,8 +88,10 @@ Sample structure output:
   ]
 }
 
+
+
 Approach used :
-# 🧠 Project Approach: Persona-Driven Document Intelligence System
+Project Approach: Persona-Driven Document Intelligence System
 
 This project aims to build a **lightweight, CPU-compatible**, persona-specific information extraction system from academic or research PDFs, suitable for constrained environments (≤1 GB model, ≤60s inference time, no internet after setup).
 
