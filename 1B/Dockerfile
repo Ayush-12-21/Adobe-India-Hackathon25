@@ -1,22 +1,26 @@
-# Use official Python base image with PyTorch and Transformers support
+# Use a lightweight Python base image
 FROM python:3.10-slim
-
-# Avoid prompts during build
-ENV DEBIAN_FRONTEND=noninteractive
 
 # Set working directory
 WORKDIR /app
 
-# Copy files into container
-COPY . .
-
 # Install system dependencies
-RUN apt-get update && \
-    apt-get install -y gcc libglib2.0-0 libsm6 libxrender1 libxext6 poppler-utils && \
-    apt-get clean && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    git \
+    && rm -rf /var/lib/apt/lists/*
 
-# Install Python dependencies
+# Copy requirements and install dependencies
+COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Default command (overridden during run)
+# Pre-download the model
+RUN python -c "from transformers import AutoTokenizer, AutoModel; \
+               AutoTokenizer.from_pretrained('intfloat/e5-small-v2'); \
+               AutoModel.from_pretrained('intfloat/e5-small-v2')"
+
+# Copy rest of the application
+COPY . .
+
+# Set default command (overridden at runtime if needed)
 CMD ["python", "chunk.py"]

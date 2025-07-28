@@ -195,7 +195,7 @@ A final JSON object is created containing:
 - Classification granularity can be improved with more labels and data.
 
 ---
-
+suggestion : Use Virtual env for running.
 ## ✅ Summary
 
 This approach delivers a practical and resource-efficient document intelligence tool for persona-based structured extraction, suitable for offline or enterprise environments with limited compute.

@@ -1,79 +1,246 @@
-
 [
-     {"text": "What is the purpose of this experiment?", "label": "question"},
-  {"text": "Introduction to Quantum Computing", "label": "section_heading"},
-  {"text": "Step 1: Install dependencies", "label": "method"},
-  {"text": "The experiment was conducted on 12/05/2022", "label": "contains_date"},
-  {"text": "Quantum computing leverages superposition...", "label": "paragraph"},
   {
-    "text": "In recent years, graph neural networks (GNNs) have emerged as a powerful tool in molecular representation learning.",
-    "label": "methodology"
+    "text": "ChEMBL‑28 Bioactivity Data for ~2 million compounds with target binding affinities",
+    "label": "dataset"
   },
   {
-    "text": "We compare benchmark results across Tox21, QM9, and MoleculeNet datasets for performance evaluation.",
+    "text": "Alchemy: QM properties (12 values) for 119,487 molecules",
+    "label": "dataset"
+  },
+  {
+    "text": "We benchmark GNN models like MPNN, GAT on the Alchemy and QM9 datasets",
     "label": "benchmark"
   },
   {
-    "text": "The ChEMBL dataset provides a large-scale bioactivity dataset critical for drug discovery.",
+    "text": "MoleculeNet provides curated datasets such as FreeSolv, ESOL, Lipophilicity",
     "label": "dataset"
   },
   {
-    "text": "This paper explores message-passing GNNs as a method for capturing molecular structure.",
+    "text": "Message-passing neural networks capture molecular graph structural features",
     "label": "methodology"
   },
   {
-    "text": "Amazon's 2023 report shows R&D spending increased by 22% compared to 2022.",
-    "label": "r_and_d"
-  },
-  {
-    "text": "Apple maintains its market lead through aggressive pricing and vertical integration.",
-    "label": "market_strategy"
-  },
-  {
-    "text": "Google's cloud revenue rose from $19.2B in 2022 to $26.4B in 2023, reflecting strong enterprise demand.",
-    "label": "revenue"
-  },
-  {
-    "text": "The annual report highlights capital expenditures focused on AI and data infrastructure.",
-    "label": "r_and_d"
-  },
-  {
-    "text": "The Arrhenius equation explains the temperature dependence of reaction rates.",
-    "label": "key_concept"
-  },
-  {
-    "text": "This chapter explains the SN1 and SN2 mechanisms with energy diagrams.",
-    "label": "mechanism"
-  },
-  {
-    "text": "Kinetic isotope effects are used to distinguish between possible reaction pathways.",
-    "label": "key_concept"
-  },
-  {
-    "text": "The student must understand the rate law derivation for unimolecular reactions.",
-    "label": "exam_preparation"
-  },
-  {
-    "text": "We demonstrate that integrating attention layers improves GNN performance on molecular property prediction.",
+    "text": "SoupNet: a message‑passing GNN trained on ChemPile multimodal data",
     "label": "methodology"
   },
   {
-    "text": "Pfizer uses GNNs to model protein-ligand interactions across the PDBbind dataset.",
+    "text": "ChemPile integrates SMILES, SELFIES, IUPAC, molecular images, and scientific text",
     "label": "dataset"
   },
   {
-    "text": "Meta’s 2024 strategy prioritizes metaverse investment over traditional ad models.",
-    "label": "market_strategy"
+    "text": "K-fold cross‑validation and performance comparison across Tox21 and QM9 datasets",
+    "label": "benchmark"
   },
   {
-    "text": "Hydrolysis reactions involve nucleophilic attack on carbonyl groups under acidic or basic conditions.",
+    "text": "Activation energy and the Arrhenius equation are included as reference quantum chemistry knowledge",
+    "label": "key_concept"
+  },
+  {
+    "text": "We evaluate SN1 vs SN2 reaction energy profiles via QM7 and PubChemQC data",
     "label": "mechanism"
   },
-  {"text": "The Tox21 corpus helps in predicting chemical toxicity.", "label": "dataset"},
-  {"text": "The student must grasp activation energy concepts before the exam.", "label": "exam_preparation"},
-  {"text": "The SN1 mechanism involves carbocation intermediates.", "label": "mechanism"},
-  {"text": "Meta has restructured its strategy to boost VR market dominance.", "label": "market_strategy"},
-  {"text": "Apple's revenue increased by 12% in the second quarter.", "label": "revenue"},
-  {"text": "Amazon's funding in AI R&D rose 18% over the past year.", "label": "r_and_d"},
-  {"text": "Graph neural networks are efficient for molecular graph learning.", "label": "methodology"}
+  {
+    "text": "Predicting aqueous solubility (LogS) using a graph convolutional network.",
+    "label": "property_prediction"
+  },
+  {
+    "text": "Virtual screening of the ZINC database to find novel kinase inhibitors.",
+    "label": "drug_discovery_task"
+  },
+  {
+    "text": "The ZINC20 database contains over 1 billion commercially available compounds for virtual screening",
+    "label": "dataset"
+  },
+  {
+    "text": "High-throughput screening of metal-organic frameworks (MOFs) for carbon capture.",
+    "label": "materials_design"
+  },
+  {
+    "text": "PubChem BioAssay data provides results of high-throughput screening experiments",
+    "label": "dataset"
+  },
+  {
+    "text": "Using GNNExplainer to identify the molecular substructures responsible for toxicity.",
+    "label": "model_interpretability"
+  },
+  {
+    "text": "Retrosynthesis prediction using a Transformer-based model to find plausible reaction pathways.",
+    "label": "synthesis_planning"
+  },
+  {
+    "text": "The PDBbind database offers a curated set of protein-ligand binding affinity data",
+    "label": "dataset"
+  },
+  {
+    "text": "ChemProp, a directed message-passing neural network, excels at molecular property prediction",
+    "label": "methodology"
+  },
+  {
+    "text": "Predicting ADMET (Absorption, Distribution, Metabolism, Excretion, Toxicity) properties for drug candidates.",
+    "label": "drug_discovery_task"
+  },
+  {
+    "text": "ToxCast/Tox21 dataset comprises qualitative toxicity measurements for thousands of chemicals",
+    "label": "dataset"
+  },
+  {
+    "text": "Estimating the quantum mechanical dipole moment for all molecules in the QM9 dataset.",
+    "label": "property_prediction"
+  },
+  {
+    "text": "The GEOM dataset provides quantum-chemically derived geometries for over 30 million molecules",
+    "label": "dataset"
+  },
+  {
+    "text": "Generative models for designing stable inorganic crystals.",
+    "label": "materials_design"
+  },
+  {
+    "text": "Graph Convolutional Networks (GCNs) aggregate information from neighboring atoms",
+    "label": "methodology"
+  },
+  {
+    "text": "Analyzing attention weights to understand which atoms contribute most to a property prediction.",
+    "label": "model_interpretability"
+  },
+  {
+    "text": "A neural network model for predicting the products of forward chemical reactions.",
+    "label": "synthesis_planning"
+  },
+  {
+    "text": "MolBERT pre-trains a Transformer model on a large corpus of unlabeled molecules using SMILES",
+    "label": "methodology"
+  },
+  {
+    "text": "Our proposed model achieves state-of-the-art results on the ESOL solubility prediction task",
+    "label": "benchmark"
+  },
+  {
+    "text": "De novo design of molecules targeting the GPCR family of receptors.",
+    "label": "drug_discovery_task"
+  },
+  {
+    "text": "Generative models like VAEs and GANs are used for de novo molecular design",
+    "label": "methodology"
+  },
+  {
+    "text": "Highest Occupied Molecular Orbital (HOMO) and Lowest Unoccupied Molecular Orbital (LUMO) are critical for predicting reactivity",
+    "label": "key_concept"
+  },
+  {
+    "text": "A model to predict the glass transition temperature of polymers.",
+    "label": "property_prediction"
+  },
+  {
+    "text": "SchNet is a continuous-filter convolutional neural network for modeling quantum interactions",
+    "label": "methodology"
+  },
+  {
+    "text": "Accelerating the discovery of novel thermoelectric materials using a Bayesian optimization framework.",
+    "label": "materials_design"
+  },
+  {
+    "text": "Quantitative Structure-Activity Relationship (QSAR) models correlate chemical structure with biological activity",
+    "label": "key_concept"
+  },
+  {
+    "text": "Predicting hERG channel blockage to assess cardiotoxicity risk.",
+    "label": "drug_discovery_task"
+  },
+  {
+    "text": "Performance comparison of GCN and GAT models on the Tox21 dataset using ROC-AUC scores",
+    "label": "benchmark"
+  },
+  {
+    "text": "Using SHAP (SHapley Additive exPlanations) to explain the output of a prediction model.",
+    "label": "model_interpretability"
+  },
+  {
+    "text": "Predicting reaction yields and identifying optimal conditions using machine learning.",
+    "label": "synthesis_planning"
+  },
+  {
+    "text": "DimeNet++, an equivariant GNN, incorporates directional information for accurate 3D property prediction",
+    "label": "methodology"
+  },
+  {
+    "text": "Modeling the transition state of the Diels-Alder cycloaddition reaction using DFT",
+    "label": "mechanism"
+  },
+  {
+    "text": "Benchmarking generative models based on validity, uniqueness, and novelty of generated molecules",
+    "label": "benchmark"
+  },
+  {
+    "text": "Chirality, or 'handedness', is a crucial stereochemical property in drug design",
+    "label": "key_concept"
+  },
+  {
+    "text": "Predicting the regioselectivity of electrophilic aromatic substitution with a GNN",
+    "label": "mechanism"
+  },
+  {
+    "text": "Calculating the band gap of a new perovskite material for solar cell applications.",
+    "label": "property_prediction"
+  },
+  {
+    "text": "Lead optimization campaign to improve ADMET properties of a promising compound series.",
+    "label": "drug_discovery_task"
+  },
+  {
+    "text": "The model's performance on the Lipophilicity dataset was measured using Root Mean Squared Error (RMSE)",
+    "label": "benchmark"
+  },
+  {
+    "text": "Clustering molecular representations to reveal that the model has learned chemical family concepts.",
+    "label": "model_interpretability"
+  },
+  {
+    "text": "The USPTO dataset contains millions of chemical reactions extracted from US patents",
+    "label": "dataset"
+  },
+  {
+    "text": "Screening for stable perovskite compositions for next-generation solar cells.",
+    "label": "materials_design"
+  },
+  {
+    "text": "The Born-Oppenheimer approximation, which separates nuclear and electronic motion, is a foundational concept in computational chemistry.",
+    "label": "key_concept"
+  },
+  {
+    "text": "Using reinforcement learning to navigate the chemical reaction space for optimal synthesis routes.",
+    "label": "synthesis_planning"
+  },
+  {
+    "text": "Simulating the catalytic cycle of a Heck coupling reaction.",
+    "label": "mechanism"
+  },
+  {
+    "text": "DrugBank database contains comprehensive information on drugs and drug targets",
+    "label": "dataset"
+  },
+  {
+    "text": "Evaluating model robustness against adversarial attacks on molecular graph inputs",
+    "label": "benchmark"
+  },
+  {
+    "text": "Density Functional Theory (DFT) is a computational method to investigate the electronic structure of many-body systems.",
+    "label": "key_concept"
+  },
+  {
+    "text": "Predicting the major product of pericyclic reactions using orbital symmetry rules",
+    "label": "mechanism"
+  },
+  {
+    "text": "Materials Project database with computed properties for inorganic crystalline materials",
+    "label": "dataset"
+  },
+  {
+    "text": "Identifying key pharmacophores by analyzing the attention maps of a trained model.",
+    "label": "model_interpretability"
+  },
+  {
+    "text": "Scoring the feasibility of a proposed synthetic route based on predicted step-wise yields.",
+    "label": "synthesis_planning"
+  }
 ]

@@ -1,0 +1,7 @@
+models/
+*.pkl
+*.pt
+*.pdf
+input/
+outputs/
+__pycache__/
