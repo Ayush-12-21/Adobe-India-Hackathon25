@@ -68,8 +68,16 @@ def classify_chunk(text):
 # ------------------ Step 4: Embedding ------------------
 
 def load_e5_model(local_path="./models/e5-small-v2"):
-    tokenizer = AutoTokenizer.from_pretrained(local_path)
-    model = AutoModel.from_pretrained(local_path)
+    if not os.path.exists(local_path):
+        print("[INFO] Model not found locally. Downloading...")
+        tokenizer = AutoTokenizer.from_pretrained("intfloat/e5-small-v2")
+        model = AutoModel.from_pretrained("intfloat/e5-small-v2")
+        os.makedirs(local_path, exist_ok=True)
+        tokenizer.save_pretrained(local_path)
+        model.save_pretrained(local_path)
+    else:
+        tokenizer = AutoTokenizer.from_pretrained(local_path)
+        model = AutoModel.from_pretrained(local_path)
     return tokenizer, model
 
 def embed(text, tokenizer, model):
