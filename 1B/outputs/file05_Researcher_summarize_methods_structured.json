@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "input_documents": [
+      "file01.pdf",
+      "file03.pdf",
+      "file04.pdf",
+      "file05.pdf"
+    ],
+    "persona": "Researcher",
+    "job": "summarize methods",
+    "timestamp": "2025-07-28T12:53:02.476488"
+  },
+  "extracted_sections": [
+    {
+      "document": "file05.pdf",
+      "page_number": 1,
+      "section_title": "methodology",
+      "importance_rank": 1
+    },
+    {
+      "document": "file05.pdf",
+      "page_number": 1,
+      "section_title": "methodology",
+      "importance_rank": 2
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "file05.pdf",
+      "page_number": 1,
+      "refined_text": "WWW.TOPJUMP.COM",
+      "constraints": [
+        "Short section (<100 words)"
+      ]
+    },
+    {
+      "document": "file05.pdf",
+      "page_number": 1,
+      "refined_text": "ADDRESS: TOPJUMP 3735 PARKWAY PIGEON FORGE, TN 37863 (NEAR DIXIE STAMPEDE ON THE PARKWAY) RSVP: ---------------- CLOSED TOED SHOES ARE REQUIRED FOR CLIMBING PARENTS OR GUARDIANS NOT ATTENDING THE PARTY, PLEASE VISIT TOPJUMP.COM TO FILL OUT WAIVER SO YOUR CHILD CAN ATTEND. HOPE To SEE Y ou T HERE !",
+      "constraints": [
+        "Short section (<100 words)"
+      ]
+    }
+  ]
+}

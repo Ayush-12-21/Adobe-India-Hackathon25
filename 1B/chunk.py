@@ -162,13 +162,25 @@ def main(pdf_paths, persona, job, output_dir="outputs"):
         print(f"[INFO] Done with {pdf_path}")
 
 # ------------------ CLI ------------------
-
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="PDF Chunker + Job-Oriented Filter")
-    parser.add_argument("--inputs", nargs='+', required=True, help="List of PDF files")
+    group = parser.add_mutually_exclusive_group(required=True)
+    group.add_argument("--inputs", nargs='+', help="List of PDF files")
+    group.add_argument("--input_dir", help="Directory containing PDF files")
+
     parser.add_argument("--persona", required=True, help="Persona: student, researcher, lawyer")
     parser.add_argument("--job", required=True, help="Job to be done: 'prepare for viva', 'extract methods'")
     parser.add_argument("--output_dir", default="outputs", help="Output folder")
     args = parser.parse_args()
 
-    main(args.inputs, args.persona, args.job, args.output_dir)
+    if args.input_dir:
+        # Read all PDF files from directory
+        pdf_files = sorted([
+            str(Path(args.input_dir) / f)
+            for f in os.listdir(args.input_dir)
+            if f.lower().endswith(".pdf")
+        ])
+    else:
+        pdf_files = args.inputs
+
+    main(pdf_files, args.persona, args.job, args.output_dir)

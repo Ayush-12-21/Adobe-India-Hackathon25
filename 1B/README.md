@@ -44,15 +44,15 @@ docker build -t challenge_1b .
 
 ▶️ Step 2: Run the Container
 docker run --rm -v "${PWD}:/app" challenge_1b \
-    python chunk.py --inputs data/file01.pdf data/file02.pdf \
-    --persona "Researcher" --job "summarize methods"
+    python chunk.py --input_dir input \
+                    --persona "Researcher" \
+                    --job "summarize methods" \
+                    --output_dir outputs
+
 
 
 Example CLI Usage (Without Docker):
-python chunk.py \
-  --inputs data/file01.pdf data/file02.pdf \
-  --persona "Student" \
-  --job "prepare for viva"
+python chunk.py --input_dir input --persona "Researcher" --job "summarize methods" --output_dir outputs
 
 
 📤 Output Format

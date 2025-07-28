@@ -1,0 +1,153 @@
+{
+  "metadata": {
+    "input_documents": [
+      "file01.pdf",
+      "file03.pdf",
+      "file04.pdf",
+      "file05.pdf"
+    ],
+    "persona": "Researcher",
+    "job": "summarize methods",
+    "timestamp": "2025-07-28T12:53:02.275923"
+  },
+  "extracted_sections": [
+    {
+      "document": "file03.pdf",
+      "page_number": 6,
+      "section_title": "dataset",
+      "importance_rank": 1
+    },
+    {
+      "document": "file03.pdf",
+      "page_number": 7,
+      "section_title": "methodology",
+      "importance_rank": 2
+    },
+    {
+      "document": "file03.pdf",
+      "page_number": 7,
+      "section_title": "methodology",
+      "importance_rank": 3
+    },
+    {
+      "document": "file03.pdf",
+      "page_number": 4,
+      "section_title": "methodology",
+      "importance_rank": 4
+    },
+    {
+      "document": "file03.pdf",
+      "page_number": 4,
+      "section_title": "dataset",
+      "importance_rank": 5
+    },
+    {
+      "document": "file03.pdf",
+      "page_number": 14,
+      "section_title": "methodology",
+      "importance_rank": 6
+    },
+    {
+      "document": "file03.pdf",
+      "page_number": 9,
+      "section_title": "dataset",
+      "importance_rank": 7
+    },
+    {
+      "document": "file03.pdf",
+      "page_number": 3,
+      "section_title": "dataset",
+      "importance_rank": 8
+    },
+    {
+      "document": "file03.pdf",
+      "page_number": 5,
+      "section_title": "r_and_d",
+      "importance_rank": 9
+    },
+    {
+      "document": "file03.pdf",
+      "page_number": 7,
+      "section_title": "methodology",
+      "importance_rank": 10
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "file03.pdf",
+      "page_number": 6,
+      "refined_text": "how the ODL will be implemented, including the timeline the financial plan for the implementation the financial plan for the first 2 operating years, including capital and operating costs, revenues, etc. a financial forecast for the succeeding 2 operating years the services and products to be delivered by the ODL how the ODL will operate and be managed following the implementation who will be involved, and what their role/responsibility will be, for both the implementation and operational stages RFP: To Develop the Ontario Digital Library Business Plan March 2003 6",
+      "constraints": [
+        "Short section (<100 words)"
+      ]
+    },
+    {
+      "document": "file03.pdf",
+      "page_number": 7,
+      "refined_text": "a) name of the firm/consultant b) names of those individuals who will be engaged in this project, their specific responsibilities on this project and relevant experience/qualifications c) description of similar engagements that highlight the firm’s experience in business planning and building stakeholder commitment d) references with details of work completed for these references e) description of the approach that will be used for completing the business plan, including a timeline f) cost to complete the study including estimated expenses (i.e.: travel, etc.) and payment structure RFP: To Develop the Ontario Digital Library Business Plan March 2003 7",
+      "constraints": [
+        "Short section (<100 words)"
+      ]
+    },
+    {
+      "document": "file03.pdf",
+      "page_number": 7,
+      "refined_text": "the marketing and communications plan for the ODL the commitment of all stakeholders to their responsibilities The process of developing this business plan must be extremely consultative to ensure that all stakeholders are engaged in creating a synergistic ODL organization. The proposal must indicate how this consultative process will be approached. The business plan for the ODL must address significant issues. There are, for example, enormous differences in the financial resources available to libraries mandated to provide similar services. Some post-secondary and public libraries, particularly those in large urban areas, have the facilities, funding and technological infrastructure necessary to service their patrons with electronic services and resources.  Many others, particularly in rural regions, do not. The proposal must indicate how these issues will be approached. Milestones 1) A preliminary report will be issued during June 2003.",
+      "constraints": []
+    },
+    {
+      "document": "file03.pdf",
+      "page_number": 4,
+      "refined_text": "We will eliminate barriers to the access to information and create more consistent services for library clients. Shared decision-making and accountability: We will facilitate consensus among members regarding ODL’s portfolio of electronic licenses and services We will balance the interests and realities of small and large as well as rich and poor communities and institutions. Shared governance structure:",
+      "constraints": [
+        "Short section (<100 words)"
+      ]
+    },
+    {
+      "document": "file03.pdf",
+      "page_number": 4,
+      "refined_text": "RFP: To Develop the Ontario Digital Library Business Plan March 2003 4",
+      "constraints": [
+        "Short section (<100 words)"
+      ]
+    },
+    {
+      "document": "file03.pdf",
+      "page_number": 14,
+      "refined_text": "-arts and humanities - business and economics - education -recreation and sports -entertainment - games, activities for kids -health information -science and technology -social sciences -society and culture 3. Educational tool-kits -guides to information gathering methodologies, information literacy -study guides -study skill development -web-based curricula -internet search guides 4. Journals, books, maps, music etc. RFP: To Develop the Ontario Digital Library Business Plan March 2003 14 14 14 14",
+      "constraints": [
+        "Short section (<100 words)"
+      ]
+    },
+    {
+      "document": "file03.pdf",
+      "page_number": 9,
+      "refined_text": "RFP: To Develop the Ontario Digital Library Business Plan March 2003 9",
+      "constraints": [
+        "Short section (<100 words)"
+      ]
+    },
+    {
+      "document": "file03.pdf",
+      "page_number": 3,
+      "refined_text": "RFP: To Develop the Ontario Digital Library Business Plan March 2003 3",
+      "constraints": [
+        "Short section (<100 words)"
+      ]
+    },
+    {
+      "document": "file03.pdf",
+      "page_number": 5,
+      "refined_text": "Local points of entry: We will provide the licenses, infrastructure, services and support that enable local libraries to provide exceptional services to their clientele. ODL will focus on support, providing the underpinning, not overshadowing. Services envisioned for the ODL’s include: Access: to the “deep” web (i.e. Commercial, purchased electronic services) to credible web sites and electronic resources to digital government information to local digital collections",
+      "constraints": [
+        "Short section (<100 words)"
+      ]
+    },
+    {
+      "document": "file03.pdf",
+      "page_number": 7,
+      "refined_text": "2) It is expected that an Interim Report, suitable for distribution to the broader library community will be available by August 1, 2003 and that there will be an opportunity for responses to be evaluated. 3) The business plan must be completed and approved by the ODL Steering Committee no later than September 30, 2003. Approach and Specific Proposal Requirements The firm/consultant (or proposed team of consultants) will be expected to work closely with the ODL Steering Committee. Terms of reference for the Committee are in the appendix. Given the consultative nature of this business planning process, the firm/consultant will also be expected to travel and communicate regularly with various stakeholders as well as with electronic resource publishers/vendors. The proposal should include the following information:",
+      "constraints": []
+    }
+  ]
+}
